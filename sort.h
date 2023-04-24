@@ -6,6 +6,7 @@
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 
 
 /* data structure for doubly linked list */
@@ -37,6 +38,7 @@ void swap_nodes(listint_t **list, listint_t *left, listint_t *right);
 void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
+void radix_sort(int *array, size_t size);
 
 
 #endif
