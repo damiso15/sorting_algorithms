@@ -4,6 +4,8 @@
 
 /* C Standard library */
 #include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 
 /* data structure for doubly linked list */
@@ -33,6 +35,7 @@ void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void swap_nodes(listint_t **list, listint_t *left, listint_t *right);
 void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
 
 
 #endif
