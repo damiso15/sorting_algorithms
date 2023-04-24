@@ -15,7 +15,7 @@ int get_max(int *array, size_t size)
 	for (i = 1; i < size; i++)
 		if (array[i] > max)
 			max = array[i];
-	return max;
+	return (max);
 }
 
 
@@ -45,7 +45,7 @@ void counting_sort_radix(int *array, size_t size, int exp)
 
 	for (i = 0; i < size; i++)
 		array[i] = output[i];
-	
+
 	free(output);
 }
 
