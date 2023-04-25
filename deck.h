@@ -8,6 +8,14 @@
 
 
 /* Data Structure */
+/**
+ * enum kind_e - same kind
+ *
+ * @SPADE: spade
+ * @HEART: heart
+ * @CLUB: club
+ * @DIAMOND: diamond
+ */
 typedef enum kind_e
 {
 	SPADE = 0,
